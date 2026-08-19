@@ -87,6 +87,8 @@ The scripts retain all DFM forecasts, including 2021Q1, but benchmark metrics us
 
 The DFM improves modestly on persistence and the AR(1) in this sample. With only 40 common forecast quarters, I treat the difference as suggestive rather than conclusive. The 2020 gap in the plot is intentional: those observations are masked by the assignment specification.
 
+![Pseudo-OOS GDP nowcasts](outputs/figure_pseudo_oos.png)
+
 ## Factor correlation
 
 The factor/GDP correlation in the original report is an in-sample diagnostic: GDP is itself one of the observations used by the state-space model. I therefore keep the figure as a useful description of the estimated factor, but use the pseudo-OOS exercise for forecast evaluation.
