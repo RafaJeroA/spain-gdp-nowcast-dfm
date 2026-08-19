@@ -60,6 +60,8 @@ run('matlab/run_nowcast.m')
 
 `current_forecasts.csv` reports the point forecasts, their conditional standard errors and 65%/95% Gaussian intervals. The intervals come from propagating the filtered state covariance through the fitted state-space model; parameter-estimation uncertainty is not included.
 
+The committed forecasts are frozen outputs from the project snapshot, whose monthly information set runs through **May 2026**. They are included for reproducibility and should not be interpreted as continuously updated real-time forecasts.
+
 MATLAB's Optimization Toolbox is required for `fminunc`.
 
 ## Pseudo-out-of-sample evaluation
@@ -101,7 +103,7 @@ For the GitHub version I kept the original economic specification and made a sma
 
 These changes can lead to slightly different estimates from the submitted report because the treatment of missing observations is no longer random.
 
-The original course report is available in [`report/ATS_Project_JeronimoAragon.pdf`](report/ATS_Project_JeronimoAragon.pdf).
+The original course report is preserved unchanged in [`report/original_course_submission.pdf`](report/original_course_submission.pdf). See [`report/README.md`](report/README.md) for the distinction between the submitted version and the cleaned GitHub version.
 
 ## Repository structure
 
